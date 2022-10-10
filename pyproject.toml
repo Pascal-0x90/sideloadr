@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "sideloadr"
+version = "0.1.0"
+description = "A python project to help with performing DLL Sideloading."
+authors = ["Pascal-0x90 <pascal-0x90@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+sideloadr = "sideloadr.__main__:main"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Jinja2 = "^3.1.2"
+pefile = "^2022.5.30"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.8.0"
+ipython = "^8.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
