@@ -1,0 +1,17 @@
+**.swp
+
+# no
+**.elf
+**.pdf
+**.xlsx
+**.docx
+**.exe
+**.iso
+**/bin
+
+# maybe
+**.png
+**.jpg
+
+**/__pycache__
+**/.vscode
